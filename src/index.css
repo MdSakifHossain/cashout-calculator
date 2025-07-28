@@ -1,0 +1,17 @@
+@import url("https://fonts.cdnfonts.com/css/sofia-pro");
+/* font-family: 'Sofia Pro', sans-serif; */
+@import url("https://fonts.cdnfonts.com/css/cubano");
+/* font-family: 'Cubano', sans-serif; */
+
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Cubano", sans-serif;
+  --font-base: "Sofia Pro", sans-serif;
+
+  --color-brand: hsl(17, 83%, 54%);
+  --color-light: hsl(46, 100%, 97%);
+  --color-muted-light: hsl(38, 16%, 76%);
+  --color-dark: hsl(216, 18%, 16%);
+  --color-muted-dark: hsla(217, 10%, 25%, 0.5);
+}
