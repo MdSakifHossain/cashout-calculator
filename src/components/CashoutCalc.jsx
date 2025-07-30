@@ -2,7 +2,6 @@ import { useState } from "react";
 
 export default function CashoutCalcStar() {
   const [amount, setAmount] = useState("");
-
   const rate = 0.0185;
 
   const parsedAmount = parseFloat(amount);

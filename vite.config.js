@@ -5,4 +5,10 @@ import tailwindcss from "@tailwindcss/vite";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  // This is crucial for GitHub Pages to resolve paths correctly
+  base: "./",
+  build: {
+    // Change output directory from 'dist' to 'docs'
+    outDir: "docs",
+  },
 });
